@@ -1,0 +1,31 @@
+// Add media queries for various widths if you'd like
+body {
+  position:relative;
+}
+
+@media (min-width:300px ) and (max-width: 480px) {
+  .h1 {
+    font-size:48px!important;
+  }     
+}
+
+@media (min-width: 481px) and (max-width:920px) {
+  .h1 {
+    font-size:64px!important;
+  }     
+
+}
+
+@media (min-width: 921px) and (max-width:2880px) {
+
+}
+
+.grid {
+
+}
+
+.ib {
+  display:inline-block;
+}
+
+

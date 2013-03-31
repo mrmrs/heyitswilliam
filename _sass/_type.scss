@@ -1,0 +1,56 @@
+body {
+  font-family:"proxima-nova", helvetica, arial, sans-serif;
+}
+
+.serif {
+  font-family:"freight-display-pro",georgia,serif;
+}
+
+.h1 {
+  font-size:96px;  
+  margin:0;
+  font-weight:100;
+  letter-spacing:.05em;
+}
+
+.caps {text-transform:uppercase; }
+.cta {text-align:center;}
+
+.h2 {
+  color:#777;
+  font-size:22px;
+  font-weight:100;
+  line-height:1;
+  padding:0;
+  margin-bottom:0;
+}
+
+.h3 {
+  font-size:14px;
+  line-height:1;
+  font-weight:100;
+  margin-top:.5em;
+  padding:0;
+}
+
+p {
+  font-size:20px;
+  width:100%;
+  font-family:"freight-display-pro",georgia,serif;
+  font-weight:100;
+  line-height:1.5;
+}
+
+.quote {
+  font-size:32px;
+  font-style:italic;
+  letter-spacing:0.1em;
+}
+
+
+.dark {
+  padding:3.5em 0;
+  background-color:#eee;
+  margin-top:0;
+  color:#222;
+}
