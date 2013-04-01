@@ -1,12 +1,32 @@
 .nav 
 {
+  @extend %clearfix;
   text-transform:uppercase;
+  float:left;
   width:100%;
+  display:block;
+  padding:0;
   .nav-i {
-    width:24.99%;
-    display:inline-block;
+    display:block;
+    text-align:center;
+    float:left;
     margin:0;
     padding:0;
   }
+  .nav-l {
+    margin:0 auto;
+    text-align:center;
+    font-size:14px;
+    color:#222;
+    display:block;
+    padding:1em 0;
+  }
+}
+
+
+.nav .portfolio {
+  max-width:480px;
+  margin:0 auto;
+  float:none;
 }
 

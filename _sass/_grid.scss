@@ -3,29 +3,68 @@ body {
   position:relative;
 }
 
+.width-wrapper {
+  width:768px;
+  margin:0 auto;
+}
+
 @media (min-width:300px ) and (max-width: 480px) {
   .h1 {
     font-size:48px!important;
   }     
+  .h1.title {
+    font-size:32px!important; 
+  }
+  .intro {
+    font-size:20px!important;
+    text-align:left!important;
+  }
+  .width-wrapper {
+    width:300px;
+  }
 }
 
 @media (min-width: 481px) and (max-width:920px) {
   .h1 {
     font-size:64px!important;
   }     
-
+  .width-wrapper {
+    width:480px!important;
+  }
 }
 
 @media (min-width: 921px) and (max-width:2880px) {
-
+  .width-wrapper {
+    width:920px;
+  }
 }
 
 .grid {
-
+  @extend %default;
 }
 
 .ib {
   display:inline-block;
 }
 
+.clearfix {
+    zoom:1;
+    &:before, &:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+.third {
+  width:33%;  
+}
+
+.fourth {
+  width:25%;
+}
 
