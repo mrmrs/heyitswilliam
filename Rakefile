@@ -8,7 +8,7 @@ end # task :dev
 
 desc "Start Sass so that is compiles to css upon file save"
 task :sass do
-  system "sass --watch _sass:css"
+  system "sass --watch _sass:css --style compressed"
 end # task :sass
 
 desc "Remove _site from directory before committing"
