@@ -37,20 +37,19 @@ body {
   .width-wrapper {
     width:100%;
   }
-.third {
-  width:100%;  
-  float:left;
-}
-
-.fourth {
-  width:100%;
-  float:left;
-}
-
-.half {
-  width:100%;
-  float:left;
-}
+  .lightbox .third {
+    width:100%;  
+    float:left;
+  }
+  .lightbox .fourth {
+    width:100%;
+    float:left;
+  }
+  .lightbox .half {
+    width:100%;
+    float:left;
+  }
+  .body-copy {padding:1.25em;}
 }
 
 @media (min-width: 481px) and (max-width:920px) {
@@ -60,6 +59,7 @@ body {
   .width-wrapper {
     width:480px!important;
   }
+  .body-copy {padding:1.25em;}
 }
 
 @media (min-width: 921px) and (max-width:2880px) {

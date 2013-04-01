@@ -74,3 +74,45 @@ a {
   padding-top:4em;
   font-size:12px;
 }
+
+.body-copy {
+  max-width:600px;
+  margin:0 auto;
+}
+
+.email-link {
+  color:#444;
+}
+
+.link {
+  font-size:24px;
+  color:#999;
+}
+
+.list {
+  margin:0;
+  padding:1em;
+  font-size:18px;
+  line-height:1.5;
+}
+
+.list-i {
+  display:inline-block;
+  border-bottom:1px solid #ddd;
+  margin-bottom:.2em;
+}
+
+.list-i a {
+  display:block;
+  padding:1em;
+  color:#333;
+  background-color:#f3f3f3;
+  &:hover {
+  color:#000;
+  background-color:#e3e3e3;
+}
+}
+
+.nav li a:hover {
+  opacity:0.2;
+}
