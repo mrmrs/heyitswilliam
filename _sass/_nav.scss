@@ -1,9 +1,6 @@
 .nav 
 {
-  @extend %clearfix;
   text-transform:uppercase;
-  float:left;
-  width:100%;
   display:block;
   padding:0;
   .nav-i {
@@ -24,7 +21,8 @@
 }
 
 
-.nav .portfolio {
+.nav.portfolio,
+.nav.main {
   max-width:480px;
   margin:0 auto;
   float:none;
