@@ -21,3 +21,9 @@ task :deploy do
   system "rm -rf _site && git add * && git commit"
 end #task :deploy
 
+desc "Deploy2" 
+task :deploy2 do 
+  system "git co gh-pages && git merge master && git push origin gh-pages"
+end #task :deploy
+
+
