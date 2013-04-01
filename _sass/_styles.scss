@@ -18,6 +18,7 @@ a {
 }
 
 .painting {
+  margin-bottom:.5em;
   position:relative;
   img {
     margin:0 auto;
@@ -38,3 +39,38 @@ a {
 }
   dl,dt,dd {margin:0;padding:0;display:inline-block;text-align:left;}
   dt {font-weight:bold;}
+
+.lightbox {
+  width:100%;
+  background:#000;
+}
+
+.full-piece {
+  margin:3em auto;
+  float:none;
+}
+
+.full-div {
+  float:left;
+  width:100%;
+  background:yellow!important;
+}
+
+.centered {
+  text-align:center;
+}
+
+.drawings img {
+  margin:.25em auto;
+}
+
+.drawings {
+  font-size:20px;
+  padding-bottom:4em;
+}
+
+
+.meta {
+  padding-top:4em;
+  font-size:12px;
+}
