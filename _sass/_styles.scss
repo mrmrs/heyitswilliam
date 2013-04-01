@@ -1,6 +1,40 @@
 // Your styles here.
 
+html {
+  background:#f4f4f4;
+}
+
 
 a {
   text-decoration:none;
 }
+
+.content {
+  @extend %default;
+}
+
+.optional-nav {
+  display:none;
+}
+
+.painting {
+  position:relative;
+  img {
+    margin:0 auto;
+  }
+  &:hover {
+    .pop-up {display:block;
+      position:absolute;
+      top:0;
+    } 
+  }
+}
+
+.pop-up {
+  text-align:center;
+  display:none;
+  width:auto;
+  h1 {font-size:24px;}
+}
+  dl,dt,dd {margin:0;padding:0;display:inline-block;text-align:left;}
+  dt {font-weight:bold;}

@@ -11,6 +11,16 @@ body {
   margin:0;
   font-weight:100;
   letter-spacing:.05em;
+  display:block;
+}
+
+.h1.title {
+  font-size:48px;
+  font-weight:bold;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  text-align:center;
+  padding:1.5em 0 .5em 0;
 }
 
 .caps {text-transform:uppercase; }
@@ -49,8 +59,14 @@ p {
 
 
 .dark {
-  padding:3.5em 0;
+  padding:3em 0 4.5em 0!important;
   background-color:#eee;
   margin-top:0;
   color:#222;
 }
+
+.intro {
+  font-size:32px;
+  text-align:center;
+}
+
