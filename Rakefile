@@ -15,3 +15,9 @@ desc "Remove _site from directory before committing"
 task :clean do
   system "rm -rf _site"
 end # task :clean
+
+desc "Deploy" 
+task :deploy do 
+  system "rm -rf _site && git add * && git commit"
+end #task :deploy
+

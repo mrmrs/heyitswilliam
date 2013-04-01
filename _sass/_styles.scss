@@ -23,12 +23,6 @@ a {
   img {
     margin:0 auto;
   }
-  &:hover {
-    .pop-up {display:block;
-      position:absolute;
-      top:0;
-    } 
-  }
 }
 
 .pop-up {
