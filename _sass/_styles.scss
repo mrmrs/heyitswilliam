@@ -87,6 +87,7 @@ a {
 .link {
   font-size:24px;
   color:#999;
+
 }
 
 .list {
@@ -108,11 +109,25 @@ a {
   color:#333;
   background-color:#f3f3f3;
   &:hover {
-  color:#000;
-  background-color:#e3e3e3;
-}
+    color:#000;
+    background-color:#e3e3e3;
+    transition: color .4s;
+    -moz-transition: color .4s; /* Firefox 4 */
+    -webkit-transition: color .4s; /* Safari and Chrome */
+    -o-transition: color .4s; /* Opera */
+  }
 }
 
 .nav li a:hover {
-  opacity:0.2;
+color:#ccc;
+    transition: color .4s;
+    -moz-transition: color .4s; /* Firefox 4 */
+    -webkit-transition: color .4s; /* Safari and Chrome */
+    -o-transition: color .4s; /* Opera */
 }
+
+.meta-plus {
+  font-size:14px;
+  letter-spacing:.1em;
+}
+
