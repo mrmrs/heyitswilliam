@@ -14,9 +14,8 @@ author: "William Deutsch"
 # Chance this when you generate your site for production to your production URL i.e http://mrsjxn.com
 # ===============
 url: "http://heyitswilliam.com"
-#url: "http://heyitswilliam.com"
 
-# Publish future posts or not option. 
+# Publish future posts or not option.
 # ===============
 # future: true
 
@@ -28,7 +27,7 @@ url: "http://heyitswilliam.com"
 # I normally exclude _sass, README*, and .gitignore
 # Directories that start with an underscore _ are not copied over by default. Still like to include _sass anyways.
 # ===============
-exclude: _sass, .gitignore, README.md 
+exclude: [README.md, _src, node_modules, package.json]
 
 # Pagination variable for how many posts to show in a list
 # ===============

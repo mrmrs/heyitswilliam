@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include _head.html %}
-  <body>
-    <div class="grid">
+  <body class="avenir">
       {% include _header.html %}
-      <section class="content">
+      <main role="main">
         {{ content }}
-      </section>
-    </div>
+      </main>
       {% include _footer.html %}
       {% include _js.html %}
   </body>
